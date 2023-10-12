@@ -1,0 +1,12 @@
+	Bootstrap
+This is framework of css that makes possible the minimization of css.
+Framework is a codebase that allows us to dictate how an application works
+
+	Grid System
+This is used in making the webpage responsive. This system uses column and rows.
+
+
+DATE:22nd friday, sept 2023
+
++ In cards, we can specify it's width by given the column of the card a 'column size' e.g 'col-2' and so on BUT we can't also specify the screen size e.g col-3.
+Therefore the best method of giving a card width is to specify max-width for the card itself.   

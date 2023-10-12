@@ -1,0 +1,542 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* BODY END*/
+
+/* CONTAINER */
+
+
+/* GENERAL EFFECT */
+img{
+    width: 100%;
+}
+
+.paragraph{
+    font-size: 1.5rem;
+    margin-top: 1.5em;
+}
+
+
+/* GENERAL EFFECT END*/
+
+
+/* CONTAINER END*/
+
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    background-color: white;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    border: 2px solid re;
+}
+
+.header{
+    display: flex;
+    width: 11.7em;
+    border: 1px solid blac;
+}
+
+#logo{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+#logo-text{
+    padding-top: 0px;
+    margin-left: .5em;
+}
+
+nav{
+    width: 80%;
+
+}
+.header-list{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+}
+
+.navigation{
+    padding-left: 3em;
+}
+
+a{
+    text-decoration: none;
+}
+
+.book-a-tour{
+    margin-left: 3em;
+    padding: 1em 3em;
+    border: 1px solid blac;
+    border-radius: 5rem ;
+    background-color: red;
+}
+#book-a-tour-anchor{
+    color: white;
+}
+
+
+.menu{
+    display: none;
+}
+
+/* @media (max-width:977px) {
+    nav{
+        display: none;
+    }
+
+    .menu{
+        border: 1px solid black;
+        display: block;
+        max-width: 80%;
+    }
+} */
+
+/* HEADER END*/
+
+
+/* LANDING PAGE */
+.landing-page{
+    display: flex;
+    border: 2px solid blac;
+    max-height: 32rem;
+}
+
+.landing-col1{
+    margin-top: 0.8em;
+    width: 50%;
+}
+
+#homepage{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.landing-col2{
+    text-align: center;
+    width: 50%;
+    border: 2px solid yello;
+}
+
+#landing-col2{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border: 2px solid re;
+}
+
+.landing-text{
+    height: 95%;
+    border: 3px solid gree;
+    font-size: 5.5vw;
+    overflow: hidden;
+
+    text-align: center;
+}
+
+
+.show-me-more-box{
+    height: 3.5rem;
+    border: 1px solid re;
+}
+
+#show-me-more-arrow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#arrow-down{
+    width: 1rem;
+}
+
+#show-me-moreP{
+    margin-top: 1rem;
+}
+/* LANDING PAGE END*/
+
+
+
+/* WHO WE ARE */
+.who-we-are{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border: 1px solid blac;
+    padding: 3em 0em;
+}
+
+.who-we-col1{
+    width: 50%;
+    border: 1px solid blac;
+}
+.who-we-col1-row1{
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 2px solid black;
+    max-width: 5.1em;
+}
+
+
+.who-we-col2{
+    width: 30%;
+}
+
+#who-we-image{
+    height: 25rem;
+    object-fit: cover;
+    object-position: bottom;
+}
+/* WHO WE ARE END*/
+
+
+
+/* WHAT WE OFFER */
+.what-we-offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid blac;
+    padding: 2em 0em;
+}
+#what-we-image{
+    height: 38rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+#what-we-offer{
+    width: 45%;
+    border: 1px solid blac;
+}
+
+#what-we-image-box{
+    width: 50%;
+}
+
+.what-weH{
+    font-size:2rem ;
+}
+.what-weH1{
+    display: flex;
+    border-bottom: 1px solid black;
+    width: 12.5rem;
+    margin-bottom: .5em;
+    text-align: start;
+}
+.what-weH2{
+    text-align: start;
+}
+
+.what-weP{
+    font-size: 1.5rem;
+    margin-top:1.5em ;
+}
+/* WHAT WE OFFER END*/
+
+/* INQUIRE */
+.inquire{
+    text-align: center;
+    border: 1px solid blac;
+    font-size: 1.5rem;
+    padding: 2em 0em;
+}
+.inquire-row1{
+    margin: 0px auto;
+}
+
+#inquireH{
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 21rem;
+    padding: 1em;
+    margin: 0px auto;
+}
+
+.inquire-row2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3em;
+}
+.inquire-row2-col{
+    width: 30%;
+}
+
+.service-icons{
+    width: 7rem;
+}
+
+.inquire-list{
+    list-style: none;
+    padding-top: 1em;
+}
+/* INQUIRE END*/
+
+/* NEED INFO */
+.need-info{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blac;
+    padding: 3em 0em;
+
+    background-image: url(images/we-serve-you.jpg);
+}
+
+.need-infoH{
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 21rem;
+    padding: 1em;
+    margin: 3em 0em;
+}
+/* NEED INFO END*/
+
+/* PARTNERS */
+.partners{
+    text-align: center;
+    border: 1px solid blac;
+    padding: 2em 0em;
+    font-size: 1.5rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.partners-article{
+    width: 50%;
+}
+.partnersH{
+    border-bottom: 1px solid black;
+    width: 25rem;
+    margin: 0px auto;
+}
+.partnersP{
+    margin-top: 1em;
+}
+/* PARTNERS END*/
+
+/* COMMUNITY */
+.community{
+    text-align: center;
+    border: 1px solid blac;
+    padding: 2em 0em;
+}
+
+.community-row1{
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 21rem;
+    padding: 1em;
+    margin: 0px auto;
+
+
+}
+
+.community-row2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 4em;
+}
+
+
+.community-row2-col{
+    width: 20%;
+}
+
+.community-logo{
+    max-width: 170px;
+    height: auto;
+}
+/* COMMUNITY END*/
+
+/* GET TO KNOW */
+.get-to-know{
+    border: 1px solid blac;
+    padding: 2em 0em;
+    font-size: 1.5rem;
+}
+
+.get-to-know-col2{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blac;
+}
+
+ol{
+    padding-left: 2em;
+}
+.get-to-knowP2{
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 17rem;
+    padding: .5em;
+    text-align: center;
+    margin-top: 4em;
+}
+
+#vegetable{
+    border: 1px solid blac;
+    max-width: 22rem;
+    max-height: 22rem;
+}
+
+.get-to-know-article{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.get-to-knowH{
+    border-bottom: 1px solid black;
+    width: 15rem;
+    margin-bottom: 1em;
+}
+
+.get-to-know-image{
+    width: 30%;
+}
+/* GET TO KNOW END*/
+
+/* BOOKING */
+.booking{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 1px solid blac;
+    padding: 3em 0em;
+}
+
+.booking-container{
+    width: 50%;
+}
+
+.bookingH{
+    border-bottom: 1px solid black;
+    width: 12rem;
+    font-size: 2rem;
+}
+.booking-col2{
+    margin-top: 2em;
+}
+
+.bookingP{
+    margin-top: 1.5em;
+}
+
+td{
+    width: 30rem;
+    height: 5rem;
+    
+}
+
+.input{
+    width: 97%;
+    height: 3rem;
+    border-radius: 5px;
+}
+
+.input-class1{
+    width: 95%;
+}
+
+#checkbox-container{
+    margin-left: 20px;
+    width: 80%;
+    border: 1px solid blac;
+    display: flex;
+}
+
+#checkbox-text{
+    font-size: 1rem;
+    padding-left: 10px;
+}
+
+.form-submit{
+    margin-top: 20px;
+}
+
+#line{
+    margin-top: 35px;
+    width: 10rem;
+}
+/* BOOKING END*/
+
+
+/* FOOTER */
+footer{
+    border: 1px solid blac;
+    padding: 1em 0em;
+    font-size: 1.5rem;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-col1{
+    width: 50%;
+}
+
+.sign-up-col2{
+    border: 1px solid blac;
+}
+
+.cook-emailAddress{
+    margin: 3em 0em;
+}
+
+.cook-collectiveP{
+    margin-top: 1em;
+}
+#sign-up-col2-container{
+    
+
+}
+
+.footer{
+    margin-top: 4em;
+    border: 1px solid blac;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+.design-code{
+    width: 29%;
+    border: 1px solid blac;
+}
+
+.footer-list{
+    list-style: none;
+}
+/* FOOTER END*/
